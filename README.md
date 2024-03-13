@@ -2,7 +2,7 @@
 
 Code for running experiments on the article: (Online) Convex Optimization for Demand-Side Management: Application to Thermostatically Controlled Loads.
 
-The 'drain_trajs' folder contains all the data used in the simulations. It is made up of csv files of individual water heater consumption in Joules over a week with 10-minute time steps. This data comes from the SMACH platform (https://hal.science/hal-03195500/document).
+Unzip 'drain_trajs' to obtain a folder with all the data used in the simulations. It is made up of csv files of individual water heater consumption in Joules over a week with 10-minute time steps. This data comes from the SMACH platform (https://hal.science/hal-03195500/document).
 
 The 'curves' folder contains the nominal consumption curve, the three possible targets ('one_hour_step', 'eight_hours_step', and 'TSO' - the target constructed with the transmission system operator's balancing signal).  This folder also contains the probability transition kernel simulated using the dataset drains.
 
