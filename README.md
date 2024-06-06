@@ -8,7 +8,7 @@ The 'curves' folder contains the nominal consumption curve, the three possible t
 
 To run an experiment save all files to a folder, create a virtual environment, install the requirements in requirements.txt and execute
 
-python main_heater.py --signal 'RTE' --n_heaters 1000 --n_iterations 20 --algo 'MD-CURL' --learn False --p_value True --epsilon 0
+python main_heater.py --signal 'TSO' --n_heaters 1000 --n_iterations 20 --algo 'MD-CURL' --learn False --p_value True --epsilon 0
 
 where the variable signal can receive one or more types of signal, depending on whether the test involves changing targets or not.
 
